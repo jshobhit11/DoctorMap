@@ -1,0 +1,1 @@
+<Route path='/room/:roomId' element={<RoomPage/>} />

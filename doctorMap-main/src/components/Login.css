@@ -1,0 +1,98 @@
+.log-con{
+    margin-top: 10vh;
+    height: 80vh;
+    width: fit-content;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    /* flex: 1; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ 
+ }
+
+ .log-img{
+   font-size: 0;
+     text-decoration: none;
+     /* background-color: green; */
+     background-image: url('https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/609147088669907f652110b0_report-an-issue(about-maps).jpeg');
+     background-size:contain;
+     background-position: center;
+     background-repeat: no-repeat;
+
+     width: 25vw;   
+     height: 80vh;
+     border-top-left-radius: 12px;
+     border-bottom-left-radius: 12px;
+     
+}
+
+ 
+ .log-container {
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 15px;
+     width: fit-content;
+     height: auto;
+     margin: 5em;
+     gap: 2em;
+ 
+ }
+ 
+ 
+ .log-container div{
+     display: flex;
+     flex-direction: column;
+     /* margin-bottom: 10px; */
+     /* gap: 0.5em; */
+ }
+ .link{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(34,99,131);
+ }
+ 
+ .log-container input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 5px;
+    width: 300px;
+    border-radius: 0.5em;
+    padding-left: 10px;
+ }
+ 
+ .regb {
+     margin-top: 30px;
+     width: 80%;
+     height: 40px;
+     font-size: 20px;
+     border-radius: 1.25rem;
+     border: none;
+     transition: all 1ms ease-in;
+     background-color: rgb(34,99,131);
+     /* color: white; */
+ }
+ 
+ .regb:hover {
+     cursor: pointer;
+     background-color: rgb(252,181,152);
+     color: black;
+     /* font-weight: bold; */
+ }
+
+ @media only screen and (max-width: 650px) {
+    .log-img{
+        display: none;
+    }
+    .log-container{
+        width: 220px;
+    }
+    
+ }
